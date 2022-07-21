@@ -12,4 +12,6 @@ Para o perfeito funcionamento do projeto precisamos utilizar o gerenciador de de
 Após o docker estar rodando vá até o arquivo docker-compose.yml e localize o environment do mariadb ![image](https://user-images.githubusercontent.com/62602623/180213208-3911862a-5472-488e-a0ed-ed6244e110ee.png) <br>
 utilize esses dados no seu gerenciador de bando de dados para a conexão.
 
+Após isso utilize as querys no rquivo db-refresh para criar as tabelas iniciais.
+
 Para criar rotas no projeto, basta ir até o arquivo Route.php e adicionar um array com o mesmo padrão da url e criar uma action no arquivo IndexController.php
